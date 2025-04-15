@@ -1,0 +1,10 @@
+^C:\USERS\M416\DESKTOP\DSA_FINA_PROJECT\BUILD\CMAKEFILES\AD26C0DAF09B05133D6F006BA44EBF1D\GENERATE.STAMP.RULE
+setlocal
+"C:\Program Files\CMake\bin\cmake.exe" -SC:/Users/M416/Desktop/DSA_FINA_PROJECT -BC:/Users/M416/Desktop/DSA_FINA_PROJECT/build --check-stamp-list CMakeFiles/generate.stamp.list --vs-solution-file C:/Users/M416/Desktop/DSA_FINA_PROJECT/build/spaceinvader.sln
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd

@@ -1,0 +1,8 @@
+{
+    "name": "spaceinvader",
+    "description": "spaceinvader game",
+    "license": "MIT",
+    "dependencies": [
+        "raylib"
+    ]
+}
