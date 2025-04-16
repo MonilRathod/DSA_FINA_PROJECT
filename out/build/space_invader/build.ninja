@@ -73,6 +73,38 @@ build CMakeFiles/spaceinvader.dir/game.cpp.obj: CXX_COMPILER__spaceinvader_unsca
   OBJECT_DIR = CMakeFiles\spaceinvader.dir
   OBJECT_FILE_DIR = CMakeFiles\spaceinvader.dir
 
+build CMakeFiles/spaceinvader.dir/laser.cpp.obj: CXX_COMPILER__spaceinvader_unscanned_Debug C$:/Users/M416/Desktop/DSA_FINA_PROJECT/laser.cpp || cmake_object_order_depends_target_spaceinvader
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\spaceinvader.dir\laser.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -isystem C:/Users/M416/Desktop/DSA_FINA_PROJECT/out/build/space_invader/vcpkg_installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spaceinvader.dir
+  OBJECT_FILE_DIR = CMakeFiles\spaceinvader.dir
+
+build CMakeFiles/spaceinvader.dir/block.cpp.obj: CXX_COMPILER__spaceinvader_unscanned_Debug C$:/Users/M416/Desktop/DSA_FINA_PROJECT/block.cpp || cmake_object_order_depends_target_spaceinvader
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\spaceinvader.dir\block.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -isystem C:/Users/M416/Desktop/DSA_FINA_PROJECT/out/build/space_invader/vcpkg_installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spaceinvader.dir
+  OBJECT_FILE_DIR = CMakeFiles\spaceinvader.dir
+
+build CMakeFiles/spaceinvader.dir/obstacle.cpp.obj: CXX_COMPILER__spaceinvader_unscanned_Debug C$:/Users/M416/Desktop/DSA_FINA_PROJECT/obstacle.cpp || cmake_object_order_depends_target_spaceinvader
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\spaceinvader.dir\obstacle.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -isystem C:/Users/M416/Desktop/DSA_FINA_PROJECT/out/build/space_invader/vcpkg_installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spaceinvader.dir
+  OBJECT_FILE_DIR = CMakeFiles\spaceinvader.dir
+
+build CMakeFiles/spaceinvader.dir/alien.cpp.obj: CXX_COMPILER__spaceinvader_unscanned_Debug C$:/Users/M416/Desktop/DSA_FINA_PROJECT/alien.cpp || cmake_object_order_depends_target_spaceinvader
+  CONFIG = Debug
+  DEP_FILE = CMakeFiles\spaceinvader.dir\alien.cpp.obj.d
+  FLAGS = -g
+  INCLUDES = -isystem C:/Users/M416/Desktop/DSA_FINA_PROJECT/out/build/space_invader/vcpkg_installed/x64-windows/include
+  OBJECT_DIR = CMakeFiles\spaceinvader.dir
+  OBJECT_FILE_DIR = CMakeFiles\spaceinvader.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target spaceinvader
@@ -81,7 +113,7 @@ build CMakeFiles/spaceinvader.dir/game.cpp.obj: CXX_COMPILER__spaceinvader_unsca
 #############################################
 # Link the executable spaceinvader.exe
 
-build spaceinvader.exe: CXX_EXECUTABLE_LINKER__spaceinvader_Debug CMakeFiles/spaceinvader.dir/main.cpp.obj CMakeFiles/spaceinvader.dir/spaceship.cpp.obj CMakeFiles/spaceinvader.dir/game.cpp.obj | vcpkg_installed/x64-windows/debug/lib/raylib.lib vcpkg_installed/x64-windows/debug/lib/raylib.lib
+build spaceinvader.exe: CXX_EXECUTABLE_LINKER__spaceinvader_Debug CMakeFiles/spaceinvader.dir/main.cpp.obj CMakeFiles/spaceinvader.dir/spaceship.cpp.obj CMakeFiles/spaceinvader.dir/game.cpp.obj CMakeFiles/spaceinvader.dir/laser.cpp.obj CMakeFiles/spaceinvader.dir/block.cpp.obj CMakeFiles/spaceinvader.dir/obstacle.cpp.obj CMakeFiles/spaceinvader.dir/alien.cpp.obj | vcpkg_installed/x64-windows/debug/lib/raylib.lib vcpkg_installed/x64-windows/debug/lib/raylib.lib
   CONFIG = Debug
   FLAGS = -g
   LINK_LIBRARIES = vcpkg_installed/x64-windows/debug/lib/raylib.lib  vcpkg_installed/x64-windows/debug/lib/raylib.lib  -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
