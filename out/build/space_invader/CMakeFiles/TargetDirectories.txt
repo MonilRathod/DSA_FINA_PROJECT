@@ -1,0 +1,3 @@
+C:/Users/M416/Desktop/DSA_FINA_PROJECT/out/build/space_invader/CMakeFiles/spaceinvader.dir
+C:/Users/M416/Desktop/DSA_FINA_PROJECT/out/build/space_invader/CMakeFiles/edit_cache.dir
+C:/Users/M416/Desktop/DSA_FINA_PROJECT/out/build/space_invader/CMakeFiles/rebuild_cache.dir

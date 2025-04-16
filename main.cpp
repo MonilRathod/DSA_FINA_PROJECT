@@ -1,4 +1,5 @@
 #include <raylib.h>
+#include "game.hpp"
 
 int main(){
     int windowWidth = 750;
@@ -7,9 +8,12 @@ int main(){
     InitWindow(windowWidth, windowHeight, "space invaders");
     SetTargetFPS(60);
 
+    Game game;
+
     while(WindowShouldClose() == false){
         BeginDrawing();
-        ClearBackground(GRAY);
+        ClearBackground(BLACK);
+        game.Draw();
         EndDrawing();
     }
 

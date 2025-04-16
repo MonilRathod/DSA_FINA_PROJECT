@@ -1,0 +1,6 @@
+# ninja log v6
+43	542	7664903605661040	CMakeFiles/spaceinvader.dir/main.cpp.obj	ca619f63e058514d
+50	545	7664903605719402	CMakeFiles/spaceinvader.dir/spaceship.cpp.obj	b3b95394a8ba26c3
+284	2981	7664896111224920	spaceinvader.exe	f17c3bfe87cae711
+16	247	7664904582326456	CMakeFiles/spaceinvader.dir/game.cpp.obj	ce5d576e5149187e
+248	4215	7664904584583252	spaceinvader.exe	e4b572a74a36526
