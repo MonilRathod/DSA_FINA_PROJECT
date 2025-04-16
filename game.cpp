@@ -199,6 +199,8 @@ void Game::AlienShootLasers()
 
 void Game::CheckForCollision()
 {
+
+    //space shop laser
     for(auto& laser : spaceship.lasers)
     {
         auto it = aliens.begin();
@@ -313,6 +315,7 @@ void Game::InitGame()
     mysteryShipSpawnintrval = GetRandomValue(10,20);
     lives = 3;
     run = true;
+    score = 0;
 }
 
 void Game::Reset()

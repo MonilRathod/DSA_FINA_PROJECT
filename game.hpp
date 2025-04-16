@@ -13,6 +13,8 @@ public:
     void Update();
     void HandleInput();
     bool run;
+    int lives;
+    int score;
 
 private:
     void DeletInactiveLasers();
@@ -35,7 +37,5 @@ private:
     MysteryShip mysteryShip;
     float mysteryShipSpawnintrval;
     float timeLastspawn;
-    int lives;
-
     
 };
