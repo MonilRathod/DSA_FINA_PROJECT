@@ -99,7 +99,8 @@
 				3,
 				4,
 				5,
-				6
+				6,
+				7
 			]
 		}
 	],
@@ -148,7 +149,8 @@
 				3,
 				4,
 				5,
-				6
+				6,
+				7
 			]
 		}
 	],
@@ -194,6 +196,12 @@
 			"backtrace" : 2,
 			"compileGroupIndex" : 0,
 			"path" : "alien.cpp",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 2,
+			"compileGroupIndex" : 0,
+			"path" : "mysteryship.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],

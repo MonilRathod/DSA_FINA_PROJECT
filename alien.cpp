@@ -50,8 +50,10 @@ void Alien::UnloadImages()
 
 void Alien::Update(int direction)
 {
-    position.x += direction;
-  
+    position.x += direction;    
+}
+
+Rectangle Alien::GetRect()
 {
-    
+    return {position.x, position.y, float(alieanImages[type-1].width), float(alieanImages[type-1].height)};
 }
