@@ -21,6 +21,7 @@ int main()
     int offset = 50;
 
     InitWindow(windowWidth + offset, windowHeight + 2 * offset, "space invaders");
+    InitAudioDevice();
     Font font = LoadFontEx("C:/Users/M416/Desktop/DSA_FINA_PROJECT/font/monogram.ttf", 64, 0, 0);
     Texture2D Spaceshipimage = LoadTexture("C:/Users/M416/Desktop/DSA_FINA_PROJECT/graphics/spaceship.png");
     SetTargetFPS(60);
@@ -30,6 +31,7 @@ int main()
 
     while(WindowShouldClose() == false)
     {
+        UpdateMusicStream(game.music);
 
         game.HandleInput();
         game.Update();
@@ -74,6 +76,7 @@ int main()
 
         EndDrawing();
     }
-
+    
     CloseWindow();
+    CloseAudioDevice();
 }

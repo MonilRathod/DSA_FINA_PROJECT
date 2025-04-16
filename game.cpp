@@ -4,12 +4,17 @@
 
 Game::Game()
 {
+    music = LoadMusicStream("C:/Users/M416/Desktop/DSA_FINA_PROJECT/sound/music.ogg");
+    explosionSound = LoadSound("C:/Users/M416/Desktop/DSA_FINA_PROJECT/sound/explosion.ogg");
+    PlayMusicStream(music);
     InitGame();
 }
 
 Game::~Game()
 {
     Alien::UnloadImages();
+    UnloadMusicStream(music);
+    UnloadSound(explosionSound);
 }
 
 void Game::Update()
@@ -209,6 +214,7 @@ void Game::CheckForCollision()
         {
             if(CheckCollisionRecs(it->GetRect(), laser.GetRect()))
             {
+                PlaySound(explosionSound);
                 if(it->type==1)
                 {
                     score += 100;
@@ -254,7 +260,7 @@ void Game::CheckForCollision()
 
         if(CheckCollisionRecs(mysteryShip.GetRect(), laser.GetRect()))
         {
-
+            PlaySound(explosionSound);
             laser.active = false;
             mysteryShip.alive = false;
             score += 500;

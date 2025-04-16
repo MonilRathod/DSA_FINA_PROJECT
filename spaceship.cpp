@@ -6,6 +6,7 @@ Spaceship::Spaceship()
     position.x = (GetScreenWidth()-image.width) / 2;
     position.y = (GetScreenHeight()-image.height) - 100;
     LastFireTime = 0;
+    lasersound = LoadSound("C:/Users/M416/Desktop/DSA_FINA_PROJECT/sound/laser.ogg");
 }
 
 Spaceship::~Spaceship()
@@ -36,6 +37,7 @@ void Spaceship::FireLaaser()
     {
     lasers.push_back(Laser({position.x + image.width / 2 - 2, position.y},-6));
     LastFireTime = GetTime();
+    PlaySound(lasersound);
     }
 }
 
