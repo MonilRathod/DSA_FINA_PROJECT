@@ -1,5 +1,6 @@
 #include "game.hpp"
 #include <iostream>
+#include <fstream>
 
 Game::Game()
 {
@@ -332,7 +333,7 @@ void Game::InitGame()
     lives = 3;
     run = true;
     score = 0;
-    HighScore = 0;
+    HighScore = LoadHighScoreFromFile();
 }
 
 void Game::CheckForHIghScore()
@@ -341,7 +342,38 @@ void Game::CheckForHIghScore()
     if(score > HighScore)
     {
         HighScore = score;
+        HighScoreToFile(HighScore);
     }
+}
+
+void Game::HighScoreToFile(int HighScore)
+{
+    std::ofstream HighScorefile("highscore.txt");
+    if(HighScorefile.is_open())
+    {
+        HighScorefile << HighScore;
+        HighScorefile.close();
+    }
+    else
+    {
+        std::cerr << "Unable to open file for writing." << std::endl;
+    }
+}
+
+int Game::LoadHighScoreFromFile()
+{
+    int LodedHighScore = 0;
+    std::ifstream HighScorefile("highscore.txt");
+    if(HighScorefile.is_open())
+    {
+        HighScorefile >> LodedHighScore;
+        HighScorefile.close();
+    }
+    else
+    {
+        std::cerr << "Unable to open file for reading." << std::endl;
+    }
+    return LodedHighScore;
 }
 
 void Game::Reset()

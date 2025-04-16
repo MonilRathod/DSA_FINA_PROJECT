@@ -29,6 +29,8 @@ private:
     void Reset();
     void InitGame();
     void CheckForHIghScore();
+    void HighScoreToFile(int HighScore);
+    int LoadHighScoreFromFile();
     Spaceship spaceship;
     std::vector<Obstacle> obstacles;
     std::vector<Alien> aliens;
