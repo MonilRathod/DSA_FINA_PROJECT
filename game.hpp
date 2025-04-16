@@ -15,9 +15,12 @@ class Game
     void DeletInactiveLasers();
     std::vector<Obstacle> CreatObstacles();
     std::vector<Alien> CreatAliens();
+    void MoveAliens();
     Spaceship spaceship;
     std::vector<Obstacle> obstacles;
     std::vector<Alien> aliens;
+    int alienDirection;
+    
     
 
 };

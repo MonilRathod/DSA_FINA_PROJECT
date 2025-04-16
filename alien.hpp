@@ -5,10 +5,11 @@ class Alien
 {
     public:
     Alien(int type,Vector2 position);
-    void Update();
+    void Update(int direction);
     void Draw();
     int GetType();
-    Texture2D image;
+    static void UnloadImages();
+    static Texture2D alieanImages[3];
     Vector2 position;
     int type;
     private:
