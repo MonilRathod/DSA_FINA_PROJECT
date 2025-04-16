@@ -200,7 +200,7 @@ void Game::AlienShootLasers()
 void Game::CheckForCollision()
 {
 
-    //space shop laser
+    //space ship laser
     for(auto& laser : spaceship.lasers)
     {
         auto it = aliens.begin();
@@ -208,6 +208,19 @@ void Game::CheckForCollision()
         {
             if(CheckCollisionRecs(it->GetRect(), laser.GetRect()))
             {
+                if(it->type==1)
+                {
+                    score += 100;
+                }
+                else if(it->type==2)
+                {
+                    score += 200;
+                }
+                else if(it->type==3)
+                {
+                    score += 300;
+                }
+                CheckForHIghScore();
                
                 it = aliens.erase(it);
                 laser.active = false;
@@ -240,8 +253,11 @@ void Game::CheckForCollision()
 
         if(CheckCollisionRecs(mysteryShip.GetRect(), laser.GetRect()))
         {
+
             laser.active = false;
             mysteryShip.alive = false;
+            score += 500;
+            CheckForHIghScore();
         }
     }
     for(auto& laser : alienLasers)
@@ -316,6 +332,16 @@ void Game::InitGame()
     lives = 3;
     run = true;
     score = 0;
+    HighScore = 0;
+}
+
+void Game::CheckForHIghScore()
+{
+
+    if(score > HighScore)
+    {
+        HighScore = score;
+    }
 }
 
 void Game::Reset()

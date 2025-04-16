@@ -15,6 +15,7 @@ public:
     bool run;
     int lives;
     int score;
+    int HighScore;
 
 private:
     void DeletInactiveLasers();
@@ -27,6 +28,7 @@ private:
     void GameOver();
     void Reset();
     void InitGame();
+    void CheckForHIghScore();
     Spaceship spaceship;
     std::vector<Obstacle> obstacles;
     std::vector<Alien> aliens;
