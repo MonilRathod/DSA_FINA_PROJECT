@@ -65,18 +65,18 @@ A modern implementation of the classic **Space Invaders** game built using the *
 
 ### 🔧 Build & Run
 
-- Clone the repository
-git clone https://github.com/MonilRathod/DSA_FINA_PROJECT
-cd DSA_FINA_PROJECT
+- **Clone the repository**
+  - git clone https://github.com/MonilRathod/DSA_FINA_PROJECT
+  - cd DSA_FINA_PROJECT
 
-- Configure with CMake
-cmake -S . -B build
+- **Configure with CMake**
+  - cmake -S . -B build
 
-- Build the project
-cmake --build build
+- **Build the project**
+  - cmake --build build
 
-- Run the game
-./build/spaceinvader
+- **Run the game**
+  - ./build/spaceinvader
 
 
 
@@ -86,11 +86,11 @@ cmake --build build
 ## How to Play 🎮
 ```
 
-| Action        | Key           |
-|---------------|---------------|
-| Move          | ← / → Arrows  |
-| Fire          | Spacebar      |
-| Restart       | Enter (on Game Over) |
+|     Action    |          Key         |
+|---------------|----------------------|
+|      Move     |     ← / → Arrows     |
+|      Fire     |       Spacebar       |
+|     Restart   | Enter (on Game Over) |
 
 ```
 
