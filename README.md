@@ -8,11 +8,11 @@ A modern implementation of the classic **Space Invaders** game built using the *
 ## 📑 Table of Contents
 
 - [Features](#features-)
-- [Setup Instructions](#-setup_instructions)
-- [How to Play](#-how_to_play)
-- [Project Structure](#-project_structure)
-- [Future Enhancements](#-future_enhancements)
-- [Credits](#-credits)
+- [Setup Instructions](#setup_instructions-)
+- [How to Play](#how_to_play-)
+- [Project Structure](#project_structure-)
+- [Future Enhancements](#future_enhancements-)
+- [Credits](#credits-)
 
 
 ---
@@ -52,7 +52,7 @@ A modern implementation of the classic **Space Invaders** game built using the *
 
 ---
 
-## ⚙️ Setup Instructions
+## Setup Instructions ⚙️
 
 ### Prerequisites
 
@@ -78,7 +78,7 @@ cmake --build build
 
 ---
 
-## 🎮 How to Play
+## How to Play 🎮
 
 | Action        | Key           |
 |---------------|---------------|
@@ -119,7 +119,7 @@ DSA_FINA_PROJECT/
 
 ---
 
-## 🚧 Future Enhancements
+## Future Enhancements 🚧
 
 - **Power-Ups**
   - Double lasers
@@ -157,7 +157,7 @@ DSA_FINA_PROJECT/
 
 ---
 
-## 👨‍💻 Credits
+## Credits 👨‍💻 
 
 - **Developer**: Code with Nick  
 - **Graphics**: Created using [Raylib](https://www.raylib.com/)  
