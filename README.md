@@ -8,11 +8,11 @@ A modern implementation of the classic **Space Invaders** game built using the *
 ## 📑 Table of Contents
 
 - [Features](#features-)
-- [Setup Instructions](#setup_instructions--)
-- [How to Play](#how_to_play--)
-- [Project Structure](#project_structure--)
+- [Setup Instructions](#setup-instructions-%EF%B8%8F)
+- [How to Play](#how-to-play-)
+- [Project Structure](#-project-structure)
 - [Future Enhancements](#future-enhancements-)
-- [Credits](#credits--)
+- [Credits](#credits-)
 
 
 ---
