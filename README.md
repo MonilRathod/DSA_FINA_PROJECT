@@ -61,8 +61,7 @@ A modern implementation of the classic **Space Invaders** game built using the *
 
 ```bash
 # Clone the repository
-git clone https://github.com/your-repo/space-invaders.git
-cd space-invaders
+git clone https://github.com/MonilRathod/DSA_FINA_PROJECT
 
 # Configure with CMake
 cmake -S . -B build
