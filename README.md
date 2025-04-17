@@ -1,10 +1,11 @@
+```markdown
 # Space Invaders Game
 
 A modern implementation of the classic **Space Invaders** game built using the **Raylib** library. This project aims to provide a fun and engaging arcade experience with retro visuals, sound effects, and smooth gameplay.
 
 ---
 
-## 🧩 Table of Contents
+## 📑 Table of Contents
 
 - [Features](#features)
 - [Setup Instructions](#setup-instructions)
@@ -15,7 +16,7 @@ A modern implementation of the classic **Space Invaders** game built using the *
 
 ---
 
-## 🚀 Features
+## 🧠 Features
 
 ### ✅ Current Functionality
 
@@ -57,11 +58,12 @@ A modern implementation of the classic **Space Invaders** game built using the *
 - [CMake](https://cmake.org/) ≥ 3.15
 - [Raylib](https://www.raylib.com/) (Install via [vcpkg](https://github.com/microsoft/vcpkg))
 
-### 🛠️ Build & Run
+### 🔧 Build & Run
 
 ```bash
 # Clone the repository
 git clone https://github.com/MonilRathod/DSA_FINA_PROJECT
+cd DSA_FINA_PROJECT
 
 # Configure with CMake
 cmake -S . -B build
@@ -71,26 +73,27 @@ cmake --build build
 
 # Run the game
 ./build/spaceinvader
+```
 
+---
 
+## 🎮 How to Play
 
+| Action        | Key           |
+|---------------|---------------|
+| Move          | ← / → Arrows  |
+| Fire          | Spacebar      |
+| Restart       | Enter (on Game Over) |
 
+### 🎯 Objective
 
-##🎮 How to Play
-
-Action	Key
-Move	← / → Arrows
-Fire	Spacebar
-Restart	Enter (on Game Over)
-🎯 Objective
 Destroy all aliens before they reach the bottom. Avoid getting hit by their lasers. Use the obstacles as temporary protection.
 
+---
 
+## 🗂 Project Structure
 
-
-
-##📁 Project Structure
-
+```plaintext
 DSA_FINA_PROJECT/
 ├── graphics/                # Sprites and textures
 ├── sound/                   # Sound effects and music
@@ -111,63 +114,55 @@ DSA_FINA_PROJECT/
 │   └── block.hpp
 ├── CMakeLists.txt           # Build configuration
 └── README.md                # Project documentation
+```
 
+---
 
+## 🚧 Future Enhancements
 
-##🌱 Future Enhancements
-Power-Ups
+- **Power-Ups**
+  - Double lasers
+  - Shields
+  - Speed boosts
 
-Double lasers
+- **Levels & Difficulty**
+  - Increasing speed and firing rate
+  - Multiple waves with difficulty scaling
 
-Shields
+- **Multiplayer Mode**
+  - Co-op or vs gameplay
 
-Speed boosts
+- **Boss Battles**
+  - Unique boss enemies with health bars
 
-Levels & Difficulty
+- **Improved Visuals**
+  - Better textures, explosion animations
 
-Increasing speed and firing rate
+- **Custom Controls**
+  - Configurable key mappings
 
-Multiple waves with difficulty scaling
+- **Achievements & Leaderboards**
+  - Milestone rewards
+  - Global score ranking
 
-Multiplayer Mode
+- **Mobile Port**
+  - Touch controls for Android/iOS
 
-Co-op or vs gameplay
+- **Story Mode**
+  - Cutscenes, missions, progression
 
-Boss Battles
+- **AI Improvements**
+  - Smarter alien patterns and shooting logic
 
-Unique boss enemies with health bars
+---
 
-Improved Visuals
+## 👨‍💻 Credits
 
-Better textures, explosion animations
+- **Developer**: Code with Nick  
+- **Graphics**: Created using [Raylib](https://www.raylib.com/)  
+- **Audio**: Sourced from [freesound.org](https://freesound.org)
 
-Custom Controls
+---
 
-Configurable key mappings
-
-Achievements & Leaderboards
-
-Milestone rewards
-
-Global score ranking
-
-Mobile Port
-
-Touch controls for Android/iOS
-
-Story Mode
-
-Cutscenes, missions, progression
-
-AI Improvements
-
-Smarter alien patterns and shooting logic
-
-##🙌 Credits
-Developer: code with nick
-
-Graphics: Created using Raylib
-
-Audio: Sourced from freesound.org
-
-🕹️ Enjoy the game, and feel free to fork, contribute, or suggest improvements!
+> 🚀 If you enjoy this project, consider starring it or suggesting improvements!
+```
