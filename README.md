@@ -11,7 +11,7 @@ A modern implementation of the classic **Space Invaders** game built using the *
 - [Setup Instructions](#setup_instructions--)
 - [How to Play](#how_to_play--)
 - [Project Structure](#project_structure--)
-- [Future Enhancements](#future_enhancements--)
+- [Future Enhancements](#future-enhancements-)
 - [Credits](#credits--)
 
 
@@ -65,17 +65,17 @@ A modern implementation of the classic **Space Invaders** game built using the *
 
 ### 🔧 Build & Run
 
-# Clone the repository
+- Clone the repository
 git clone https://github.com/MonilRathod/DSA_FINA_PROJECT
 cd DSA_FINA_PROJECT
 
-# Configure with CMake
+- Configure with CMake
 cmake -S . -B build
 
-# Build the project
+- Build the project
 cmake --build build
 
-# Run the game
+- Run the game
 ./build/spaceinvader
 
 
