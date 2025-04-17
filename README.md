@@ -17,7 +17,7 @@ A modern implementation of the classic **Space Invaders** game built using the *
 
 ---
 
-## 🧠 features
+## 🧠 Features
 
 ### ✅ Current Functionality
 
