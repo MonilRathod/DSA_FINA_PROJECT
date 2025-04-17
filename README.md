@@ -7,7 +7,7 @@ A modern implementation of the classic **Space Invaders** game built using the *
 
 ## 📑 Table of Contents
 
-- [Features](#features)
+- [Features](#-features)
 - [Setup Instructions](#setup-instructions)
 - [How to Play](#how-to-play)
 - [Project Structure](#project-structure)
@@ -17,7 +17,7 @@ A modern implementation of the classic **Space Invaders** game built using the *
 
 ---
 
-## 🧠 Features
+## 🧠 features
 
 ### ✅ Current Functionality
 
