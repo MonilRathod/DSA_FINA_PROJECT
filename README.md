@@ -94,6 +94,7 @@ Destroy all aliens before they reach the bottom. Avoid getting hit by their lase
 
 ## 🗂 Project Structure
 
+```
 
 DSA_FINA_PROJECT/
 ├── graphics/                # Sprites and textures
@@ -118,6 +119,8 @@ DSA_FINA_PROJECT/
 
 
 ---
+
+```
 
 ## Future Enhancements 🚧
 
