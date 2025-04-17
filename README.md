@@ -1,4 +1,4 @@
-```markdown
+
 # Space Invaders Game
 
 A modern implementation of the classic **Space Invaders** game built using the **Raylib** library. This project aims to provide a fun and engaging arcade experience with retro visuals, sound effects, and smooth gameplay.
@@ -13,6 +13,7 @@ A modern implementation of the classic **Space Invaders** game built using the *
 - [Project Structure](#project-structure)
 - [Future Enhancements](#future-enhancements)
 - [Credits](#credits)
+
 
 ---
 
@@ -60,7 +61,6 @@ A modern implementation of the classic **Space Invaders** game built using the *
 
 ### 🔧 Build & Run
 
-```bash
 # Clone the repository
 git clone https://github.com/MonilRathod/DSA_FINA_PROJECT
 cd DSA_FINA_PROJECT
@@ -73,7 +73,7 @@ cmake --build build
 
 # Run the game
 ./build/spaceinvader
-```
+
 
 ---
 
@@ -93,7 +93,7 @@ Destroy all aliens before they reach the bottom. Avoid getting hit by their lase
 
 ## 🗂 Project Structure
 
-```plaintext
+
 DSA_FINA_PROJECT/
 ├── graphics/                # Sprites and textures
 ├── sound/                   # Sound effects and music
@@ -114,7 +114,7 @@ DSA_FINA_PROJECT/
 │   └── block.hpp
 ├── CMakeLists.txt           # Build configuration
 └── README.md                # Project documentation
-```
+
 
 ---
 
