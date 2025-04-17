@@ -18,7 +18,7 @@ A modern implementation of the classic **Space Invaders** game built using the *
 ---
 
 ## Features 🧠 
-```
+
 
 
 ### ✅ Current Functionality
@@ -50,12 +50,12 @@ A modern implementation of the classic **Space Invaders** game built using the *
 - **Game Over / Restart**
   - Ends on player death or alien breach
   - Press `Enter` to restart the game
-```
+
 
 ---
 
 ## Setup Instructions ⚙️
-```
+
 
 ### Prerequisites
 
@@ -78,7 +78,7 @@ cmake --build build
 # Run the game
 ./build/spaceinvader
 
-```
+
 
 
 ---
@@ -131,7 +131,7 @@ DSA_FINA_PROJECT/
 
 ## Future Enhancements 🚧
 
-```
+
 
 - **Power-Ups**
   - Double lasers
@@ -166,17 +166,17 @@ DSA_FINA_PROJECT/
 
 - **AI Improvements**
   - Smarter alien patterns and shooting logic
-```
+
 
 ---
 
 ## Credits 👨‍💻 
-```
+
 
 - **Developer**: Code with Nick  
 - **Graphics**: Created using [Raylib](https://www.raylib.com/)  
 - **Audio**: Sourced from [freesound.org](https://freesound.org)
-```
+
 
 ---
 
