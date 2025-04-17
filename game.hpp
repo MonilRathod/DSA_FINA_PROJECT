@@ -12,11 +12,13 @@ public:
     void Draw();
     void Update();
     void HandleInput();
+    void TogglePause();
     bool run;
     int lives;
     int score;
     int HighScore;
     Music music;
+    bool paused = false;
 
 private:
     void DeletInactiveLasers();
@@ -31,6 +33,7 @@ private:
     void InitGame();
     void CheckForHIghScore();
     void HighScoreToFile(int HighScore);
+    void ResetHighScore();
     int LoadHighScoreFromFile();
     Spaceship spaceship;
     std::vector<Obstacle> obstacles;
@@ -43,5 +46,4 @@ private:
     float mysteryShipSpawnintrval;
     float timeLastspawn;
     Sound explosionSound;
-    
 };

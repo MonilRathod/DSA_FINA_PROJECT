@@ -46,7 +46,6 @@ Rectangle Spaceship::GetRect()
     return{position.x, position.y, float(image.width), float(image.height)};
 }
 
-
 void Spaceship::Reset()
 {
     lasers.clear();

@@ -10,8 +10,6 @@ std::string FormatWithLeadingZeros(int number, int width)
 
 }
 
-
-
 int main()
 {
     Color yellow = { 243, 216, 63, 255 };
@@ -28,7 +26,6 @@ int main()
 
     Game game;
     
-
     while(WindowShouldClose() == false)
     {
         UpdateMusicStream(game.music);
@@ -38,6 +35,15 @@ int main()
 
         BeginDrawing();
         ClearBackground(black);
+        if(game.paused)
+        {
+            DrawTextEx(font, "PAUSED", {285,725}, 64, 2, RED);
+            DrawTextEx(font, "PRESS P TO CONTINUE", {190, 15 }, 34, 2, yellow);
+        }
+        else
+        {
+            DrawTextEx(font, "PRESS P TO PAUSE", {225, 15 }, 34, 2, yellow);
+        }
         DrawRectangleRoundedLinesEx({10, 10, 780, 780}, 0.18f, 20,2, yellow);
         DrawLineEx({25,730}, {770,730},3, yellow);
 
@@ -48,6 +54,7 @@ int main()
         else
         {
             DrawTextEx(font, "GAMEOVER", {570, 740 }, 34, 2, yellow);
+            DrawTextEx(font, "  PRESS ENTER TO RESTART", {25, 740 }, 34, 2, yellow);
 
         }
         float x=50.0;
@@ -66,13 +73,11 @@ int main()
         std::string highScoreText = FormatWithLeadingZeros(game.HighScore, 5);
         DrawTextEx(font, highScoreText.c_str(), {655, 40 }, 34, 2, yellow);
 
+    
+
         
 
         game.Draw();
-
-
-        
-
 
         EndDrawing();
     }

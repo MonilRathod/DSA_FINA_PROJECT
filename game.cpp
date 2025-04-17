@@ -19,6 +19,10 @@ Game::~Game()
 
 void Game::Update()
 {
+    if(paused)
+    {
+        return;
+    }
     if(run)
     {
 
@@ -91,11 +95,14 @@ void Game::Draw()
 
 void Game::HandleInput()
 {
-    if(run)
+    if (IsKeyPressed(KEY_P)) TogglePause();
+    if(!paused && run)
     {
         if (IsKeyDown(KEY_LEFT)) spaceship.MoveLeft();
         if (IsKeyDown(KEY_RIGHT)) spaceship.MoveRight();
         if (IsKeyDown(KEY_SPACE)) spaceship.FireLaaser(); 
+        if (IsKeyPressed(KEY_R))  ResetHighScore();
+    
     }  
 }
 
@@ -388,4 +395,14 @@ void Game::Reset()
     aliens.clear();
     alienLasers.clear();
     obstacles.clear();
+}
+
+void Game::ResetHighScore()
+{
+    HighScore = 0;
+    HighScoreToFile(HighScore);
+}
+
+void Game::TogglePause() {
+    paused = !paused;
 }
