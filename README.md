@@ -76,7 +76,7 @@ cmake --build build
 
 
 
-🎮 How to Play
+##🎮 How to Play
 
 Action	Key
 Move	← / → Arrows
@@ -89,7 +89,7 @@ Destroy all aliens before they reach the bottom. Avoid getting hit by their lase
 
 
 
-📁 Project Structure
+##📁 Project Structure
 
 DSA_FINA_PROJECT/
 ├── graphics/                # Sprites and textures
@@ -114,7 +114,7 @@ DSA_FINA_PROJECT/
 
 
 
-🌱 Future Enhancements
+##🌱 Future Enhancements
 Power-Ups
 
 Double lasers
@@ -163,7 +163,7 @@ AI Improvements
 
 Smarter alien patterns and shooting logic
 
-🙌 Credits
+##🙌 Credits
 Developer: code with nick
 
 Graphics: Created using Raylib
