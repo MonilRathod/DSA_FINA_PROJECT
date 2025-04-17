@@ -92,10 +92,12 @@ cmake --build build
 | Fire          | Spacebar      |
 | Restart       | Enter (on Game Over) |
 
+```
+
 ### 🎯 Objective
 
 Destroy all aliens before they reach the bottom. Avoid getting hit by their lasers. Use the obstacles as temporary protection.
-```
+
 
 ---
 
